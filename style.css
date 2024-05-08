@@ -1,0 +1,39 @@
+body{/*estilo de todo el cuerpo*/
+    font-family: Arial, sans-serif;/*tipo de letra para todo*/
+        text-align: center;/*textos centrados*/
+    background-image: url(img/signo.avif);/*imagen de fondo*/
+}
+h1{/*estilo del titulo*/
+    font-family: "Lugrasimo", cursive;/*tipo de letra para todo*/
+    font-weight: 600px;/*tamaño de la letra*/
+    font-style: normal;/*estilo*/
+    color: rgb(0, 0, 0);/*color*/
+  }
+.container{/*contenedor de elementos*/
+    backdrop-filter: blur(20px);/*estilo borroso*/
+    height: 400px;/*alto*/
+    width: 500px;/*ancho*/
+    margin: auto;/*espacios de margen*/
+}
+.adivinaNum{/*estilo del boton*/
+    background-color: rgb(164, 155, 173);/*color de boton*/
+    font-weight: 300px;/*tamaño de la letra*/
+    border-radius: 10%;/*borde redondeado*/
+    top: 70%;/*espacio de arriba*/
+    left: 50%;/*espacios de los lados*/
+    height: 30px;/*alto*/
+    width: 65px;/*ancho*/
+}
+.pensarNum{/*estilo del boton*/
+    background-color: rgb(164, 155, 173);/*color de boton*/
+    color: rgb(0, 0, 0);/*color de letra*/
+    border-radius: 10%;/*borde redondeado*/
+    top: 70%;/*espacio de arriba*/
+    left: 50%;/*espacios de los lados*/
+    height: 30px;/*alto*/
+    width: 150px;/*ancho*/
+
+}
+
+
+  

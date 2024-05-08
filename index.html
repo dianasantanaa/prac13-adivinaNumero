@@ -1,0 +1,32 @@
+<!DOCTYPE html><!--informa al navegdor que version de HTML se ocupa-->
+<html lang="en"><!--se utiliza para comenzar a estructurar y el idioma-->
+<head><!--información general acerca del documento, incluyendo su título y
+    enlaces a scripts y hojas de estilos-->
+    <meta charset="UTF-8"><!--responsable de que se muestre el contenido correctamente y con caracteres-->
+    <!-- metaetiqueta mediante la que se establece si se puede hacer zoom en una página, el zoom inicial o 
+        la anchura de la pantalla del dispositivo-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el numero</title><!--se encarga de dale titulo a la pestaña de la pagina-->
+    <link rel="stylesheet" href="style.css"><!--se enlaza una hoja de estilo-->
+    <!--estilos de letra de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Lugrasimo&family=Madimi+One&display=swap" rel="stylesheet">
+</head><!--se cierra la parte de la informacion general-->
+<body><!--se escribe el contenido que ira dentro de la pagina web-->
+<div class="container"><!--colocamos un contenedor de todos los objetos de la pagina-->
+    <h1>Adivina el Número</h1><!--titulo principal-->
+    <p>Intenta adivinar el número entre 1 y 50.</p><!--parrafo-->
+<!--colocamos una indicacion-->
+    <label for="numero">Ingresa un número:</label>
+    <input type="number" id="numero"><!--en donde colocaremos lo datos pedidos-->
+    <!--colocamos un boton con ayuda JS-->
+    <button class="adivinaNum"  onclick="adivinarNumero()">Adivinar</button>
+<!--colocamosn un segundo boton para que piense un numero random-->
+    <button class="pensarNum" onclick="pensarNumero()">Pensar Número</button>
+<!--este parrafo nos ayudara a saber el resultado-->
+    <p id="resultado"></p>
+</div><!--se termina el contenedor principal-->
+    <script src="script.js"></script><!--enlazamos a script-->
+</body><!--se termina lo que ira dentro de la pagina web-->
+</html><!--fin de la estructura-->
